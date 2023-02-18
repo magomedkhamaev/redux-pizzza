@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { useSelector, useDispatch } from "react-redux";
 import {addItem} from '../redux/slices/cartSlice';
 import { Link } from 'react-router-dom';
-const typeNames = ['тонкое', 'традиционное'];
+const typeNames = ['тонкое', 'традиционное', 'slim'];
 
 function Pizza({ id, price, title, imageUrl, sizes, types }) {
   const dispatch = useDispatch();
@@ -23,6 +23,9 @@ function Pizza({ id, price, title, imageUrl, sizes, types }) {
     };
     dispatch(addItem(item));
    }  
+   if(!types) {
+    return <>Loadd...</>;
+   }
     return (
         <div className="pizza-block">
         <Link to={`/pizza/${id}`}>
