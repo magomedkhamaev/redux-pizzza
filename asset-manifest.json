@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/redux-pizzza/static/css/main.6c2952e5.css",
+    "main.js": "/redux-pizzza/static/js/main.3384c092.js",
+    "static/js/787.3a33840f.chunk.js": "/redux-pizzza/static/js/787.3a33840f.chunk.js",
+    "static/media/pizza-logo.svg": "/redux-pizzza/static/media/pizza-logo.56ac87032d8f6fdf863326acd06c0d97.svg",
+    "index.html": "/redux-pizzza/index.html",
+    "main.6c2952e5.css.map": "/redux-pizzza/static/css/main.6c2952e5.css.map",
+    "main.3384c092.js.map": "/redux-pizzza/static/js/main.3384c092.js.map",
+    "787.3a33840f.chunk.js.map": "/redux-pizzza/static/js/787.3a33840f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c2952e5.css",
+    "static/js/main.3384c092.js"
+  ]
+}
